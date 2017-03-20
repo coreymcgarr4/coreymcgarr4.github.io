@@ -124,6 +124,10 @@ input {
   width: 35%;
 }
 
+form {
+  width: 35%;
+}
+
 li, ul {
   background-color: lightgray;
 }
@@ -136,7 +140,7 @@ li, ul {
   .description {
     position:absolute;
     left: 12px;
-    top: 414px;
+    top: 405px;
     float: left;
     width: 40%;
   }
