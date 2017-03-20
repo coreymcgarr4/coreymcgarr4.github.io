@@ -6,7 +6,7 @@ angular.module('myApp')
      console.log(search);
 
      promise.then(function(results){
-         console.log(results);
+         console.log({{book[0].volumeInfo.authors}});
          $scope.book = results.data.items;
        });
    }
