@@ -168,3 +168,13 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: gray;
+}
+a:hover {
+    color: lightgrey;
+}
